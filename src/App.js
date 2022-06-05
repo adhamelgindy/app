@@ -1,13 +1,20 @@
-import logo from './logo.svg';
+/* eslint-disable */
 import './App.css';
+import PublicPage from './components/PublicPage';
+// import logo from './logo.svg';
+// import TopMenu from './components/TopMenu'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App" style={{}}>
+      <NavBar />
+      <PublicPage />
+      {/* {
+       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Thanks for visiting the website
         </p>
         <a
           className="App-link"
@@ -15,9 +22,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          please login with this link that takes you to react page 
         </a>
-      </header>
+      </header> } */}
     </div>
   );
 }
