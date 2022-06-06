@@ -1,7 +1,7 @@
- /* eslint-disable */
+/* eslint-disable */
 import React from 'react';
 import '../styles/css/layout.css';
-import logo from '../alien.png';
+import logo from '../alienLogo.png';
 import LoginButton from './LoginButton';
 
 const PublicPage = () => {
@@ -26,22 +26,30 @@ const PublicPage = () => {
       <div
         style={{
           fontSize: 'calc(10px + 2vmin)',
+          padding: '3em',
         }}
       >
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Thanks for visiting the website</p>
+        <img
+          style={{ padding: '3em' }}
+          src={logo}
+          className="App-logo"
+          alt="logo"
+        />
+        <p>Aliens form</p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          please login with this link that takes you to react page
+          The first interactive form to communicate with aliens
         </a>
       </div>
       <div>
-        Praesent commodo cursus magna, vel scelerisque nisl consectetur. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit.
+        communicating with aliens is a very important subject that we should
+        cherishmore nowadays. as our world is changing and we are communicating
+        with other worlds, we have to understand how they live and how they
+        think about how we live.
       </div>
     </div>
   );
